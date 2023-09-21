@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <style>
+      #main {
+        width: 30%;
+        height: 550px;
+        background-color: white;
+        border-radius: 10px;
+        margin-left: 50px;
+        /* text-align: center; */
+      }
+      #form {
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        /* justify-content: center; */
+        gap: 5px;
+        margin-top: 45px;
+      }
+      #form img {
+        width: 120px;
+        margin: auto;
+        margin-top: 50px;
+
+        /* margin-left: 138px; */
+      }
+      #form input {
+        width: 300px;
+        height: 40px;
+        border-radius: 20px;
+        border: 1px solid gray;
+      }
+      #form button {
+        width: 300px;
+        height: 40px;
+        border-radius: 20px;
+        border: none;
+        background-color: #ff5c00;
+        color: white;
+      }
+      #form button a{
+        text-decoration: none;
+        color: white;
+      }
+      #form span {
+        font-weight: bold;
+        color: #ff5c00;
+      }
+      #form h3 {
+        margin-top: 30px;
+      }
+      #form p{
+        margin-bottom: 20px;
+      }
+      #user {
+        background-image: url(./pics/user.svg);
+        background-repeat: no-repeat;
+        background-size: 20px 20px;
+        /* width: 30px;
+        height: 30px; */
+        background-position: 4% 50%;
+        text-indent: 40px;
+      }
+      #pass {
+        background-image: url(./pics/password.png);
+        background-repeat: no-repeat;
+        background-size: 20px 20px;
+        background-position: 4% 50%;
+        text-indent: 40px;
+      }
+      #labell {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-left: 50px;
+      }
+      #labell label {
+        /* font-weight: bold; */
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <form action="">
+        <div id="form">
+          <img src="./pics/coca.JPG " alt="" />
+          <h3 style="text-align: center">Login form</h3>
+          <p style="text-align: center">
+            Lorem ipsum dolor sit amet, consectetur <br />
+            adipisicing elit. Minima, eos.
+          </p>
+          <div id="labell">
+            <label for="">Username</label>
+            <input
+              id="user"
+              type="text"
+              placeholder="Enter username" />
+            <label for="">Password</label>
+            <input
+              id="pass"
+              type="text"
+              name=""
+              id=""
+              placeholder="Enter Password" />
+            <span>Forgot password?</span>
+            <button> <a href="">Running Order</a></button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
